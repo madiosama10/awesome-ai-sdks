@@ -89,6 +89,21 @@ It is currently in alpha, and is not yet ready for production use.
 
 </details>
 
+## [FiatDock](https://fiatdock.com)
+
+FiatDock is a non-custodial USDC ↔ bank on/off-ramp for AI agents. It gives any MCP-capable agent four tools — free quotes with all fees itemised, off-ramp and on-ramp sessions at $0.05 USDC per call paid automatically via the x402 protocol, and order tracking. Conversion, KYC and custody are handled by Transak, a licensed provider; the binding own-account rule applies (the sending wallet and the receiving bank account belong to the agent's owner). Available via `npx fiatdock-mcp`, a remote Streamable HTTP endpoint at `https://fiatdock.com/mcp`, and a plain REST API.
+
+<details>
+
+<!-- ### Description -->
+
+### Links
+- [Web](https://fiatdock.com)
+- [GitHub](https://github.com/fiatdock/fiatdock)
+- [npm](https://www.npmjs.com/package/fiatdock-mcp)
+
+</details>
+
 ## [Fixie]()
 
 Fixie is a platform for conversational AI that enables to build agents in any language. They have their own [agent protocol](https://docs.fixie.ai/agent-protocol/).
